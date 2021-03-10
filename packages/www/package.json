@@ -5,11 +5,11 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "npm run build",
+    "build": "gatsby buid",
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^3.0.4",
+    "gatsby": "2.19.12",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
