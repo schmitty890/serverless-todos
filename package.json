@@ -1,23 +1,12 @@
 {
   "name": "serverless-todos",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "develop": "cd packages/www && npm run develop",
-    "start": "cd packages/www && npm run build",
-    "clean": "cd packages/www && npm run clean"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/schmitty890/serverless-todos.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/schmitty890/serverless-todos/issues"
-  },
-  "homepage": "https://github.com/schmitty890/serverless-todos#readme"
+  "repository": "https://github.com/schmitty890/serverless-todos.git",
+  "author": "Jason Schmitt <schmitty890@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }

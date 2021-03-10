@@ -1,17 +1,13 @@
 {
   "name": "www",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby buid",
     "clean": "gatsby clean"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "gatsby": "^3.0.4",
     "react": "^17.0.1",
