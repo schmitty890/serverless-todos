@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "cd packages/www && npm run develop",
-    "build": "cd packages/www && npm run build",
+    "start": "cd packages/www && npm run build",
     "clean": "cd packages/www && npm run clean"
   },
   "repository": {
